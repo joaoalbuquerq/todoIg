@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: .5rem;
+
+    margin-top: -28px;
+}
+
+.addTaskBar{
+    box-sizing: border-box;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 1.2rem;
+    width: 39rem;
+
+    color: var(--gray-100);
+}
+
+.buttonBlue{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    padding: .9rem;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: none;
+}
